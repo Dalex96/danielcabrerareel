@@ -1,0 +1,69 @@
+.starsSkills{
+	margin-left: 10px; 
+	position: relative; 
+	left: 30px;
+}
+
+.starColorSkill{
+	color: #FFD133;
+	margin: 0px;
+}
+
+.margSectTwo{
+	margin-bottom: 0px;
+}
+
+// RESOLUCION DE TABLET
+
+@media  screen and (max-width:1120px){
+	.starsSkills{
+		margin-left: 2px; 
+		position: relative; 
+		left: 10px;
+	}
+}
+
+
+@media  screen and (max-width:800px){
+	.starsSkills{
+		margin-left: 1px; 
+		position: relative; 
+		left: 5px;
+	}
+}
+
+@media  screen and (max-width:640px){
+	.starsSkills{
+		margin-left: 0px; 
+		position: relative; 
+		left: 2px;
+	}
+
+	.margSectTwo{
+		margin-bottom: 100px;
+	}	
+}
+
+
+
+@media  screen and (max-width:420px){
+	.starsSkills{
+		margin-left: 2px; 
+		position: relative; 
+		left: 20px;
+	}
+}
+
+
+
+// RESOLUCION MOVIL
+
+@media  screen and (max-width:320px){
+	.starsSkills{
+		margin-left: 0px; 
+		position: relative; 
+		left: 5px;
+	}
+}
+
+
